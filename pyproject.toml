@@ -8,6 +8,7 @@ packages = [{include = "textual_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+textual = "^0.11.1"
 
 
 [build-system]
