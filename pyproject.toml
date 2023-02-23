@@ -10,6 +10,8 @@ packages = [{include = "textual_demo"}]
 python = "^3.10"
 textual = "^0.11.1"
 
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core"]
